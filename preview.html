@@ -1,0 +1,184 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+        html {
+            background: black;
+            scroll-behavior: smooth;
+        }
+        #navbar {
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 10px;
+        }
+        #navbar b {
+            color: #ff0000;
+            font-family: 'Oswald', sans-serif;
+            font-size: 50px;
+            padding-left: 20px;
+        }
+        #navbar a {
+            color: white;
+            background: #ff0000;
+            border-radius: 5px;
+            padding: 5px;
+            transition: 0.2s;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 650px;
+        }
+        #navbar a:hover {
+            background: white;
+            color: #ff0000;
+        }
+        #hh1 {
+            color: #ff0000;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            font-size: 70px;
+        }
+        #r1 {
+            display: flex;
+            margin-right: 200px;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        #r2 {
+            display: flex;
+            margin-right: 200px;
+            margin-left: 200px;
+            margin-top: 50px;
+            padding-bottom: 50px;
+        }
+        .box {
+            background: #161515;
+            margin-left: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 5px;
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 18px;
+            border-radius: 10px;
+            border-left: 10px solid #ff0000;
+            transition: 0.5s;
+        }
+        .box h1 {
+            color: #ff0000;
+            font-family: 'Oswald', sans-serif;
+            font-size: 40px;
+        }
+        .box a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+        .box:hover {
+            transform: translate(0, -10px);
+        }
+        @media screen and (max-device-width: 1100px) {
+            #navbar b {
+                font-size: 100px;
+            }
+            #navbar a {
+                font-size: 40px;
+                margin-left: 250px;
+            }
+            #hh1 {
+                font-size: 100px;
+            }
+            #r1 {
+            display: flex;
+            margin-right: 50px;
+            margin-left: 50px;
+            flex-direction: column
+            }
+            #r2 {
+            display: flex;
+            margin-right: 50px;
+            margin-left: 50px;
+            flex-direction: column
+            }
+            .box {
+            margin-bottom: 30px;
+            font-size: 30px;
+            }
+            .box h1 {
+                font-size: 60px;
+            }
+        }
+    </style>
+    <head>
+        <title>
+            EduTron
+        </title>
+    </head>
+    <body>
+        <div id="navbar">
+            <b>
+                EduTron
+            </b>
+            <A href="./posting.html">
+                Write A Question
+            </A>
+        </div>
+        <div id="a1">
+            <h1 id="hh1">
+                Trending Questions
+            </h1>
+            <div id="r1">
+                <div class="box">
+                    <h1>
+                        Explain exponents
+                    </h1>
+                    Exponent of a number shows how many times we are multiplying a number by itself.
+                    <br>For example, 34 means we are multiplying 3 four times.
+                    <br>Its expanded form is 3×3×3×3.
+                    <br>Exponent is also known as the power of a number.
+                    <br>
+                    <a href="">Read More</a>
+                </div>
+                <div class="box">
+                    <h1>
+                        Explain equations
+                    </h1>
+                    In mathematics,
+                    <br>an equation is a statement that asserts the equality of two expressions,
+                    <br>which are connected by the equals sign "=".
+                    <br>The word equation and its cognates in other languages may have subtly different meanings; 
+                    <br>for example, in French an équation is defined as containing one or more variables,
+                    <br>while in English, any equality is an equation.
+                   <br>
+                    <A href="">Read More</A>
+                </div>
+            </div>
+            <div id="r2">
+                <div class="box">
+                    <h1>
+                        Define Life
+                    </h1>
+                    Life is a characteristic that distinguishes physical entities that have biological processes,
+                    <br>such as signaling and self-sustaining processes, from those that do not,
+                    <br>either because such functions have ceased (they have died),
+                    <br>or because they never had such functions and are classified as inanimate.
+                    <br>Various forms of life exist, such as plants, animals, fungi, protists, archaea, and bacteria.
+                    <br>
+                    <a href="">Read More</a>
+                </div>
+                <Div class="box">
+                    <h1>
+                        Define Exam
+                    </h1>
+                    Examinations are a formal assessment process,
+                    <br>where candidates can showcase their knowledge and proficiency in a given subject or topic.
+                    <br>They are administered with varying purposes and at varying frequencies by an assessment or
+                    <br>recruitment body.
+                    <br>
+                    <a href="">Read More</a>
+                </Div>
+            </div>
+        </div>
+    </body>
+</html>

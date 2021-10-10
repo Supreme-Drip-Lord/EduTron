@@ -1,0 +1,101 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+        html {
+            background: black;
+            scroll-behavior: smooth;
+        }
+        #mains {
+            background: #161515;
+            margin-left: 250px;
+            margin-right: 250px;
+            margin-top: 100px;
+            border-radius: 10px;
+            padding-left: 50px;
+            padding-bottom: 25px;
+        }
+        #mains h1 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-size: 80px;
+        }
+        #mains input {
+            background: #5E5858;
+            font-size: 20px;
+            font-family: 'Urbanist', sans-serif;
+            width: 600px;
+            border: none;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        #summit button {
+            background: #ff0000;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 900;
+            transition: 0.2s; 
+            border: none;
+            font-size: 20px;
+            font-family: 'Urbanist', sans-serif;
+            width: 600px;
+        }
+        #summit button:hover {
+            background: white;
+            color: #ff0000;
+        }
+        #help {
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        #help a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+        @media screen and (max-device-width: 1200px) {
+            #mains {
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-top: 500px;
+            }
+            #mains h1 {
+                font-size: 160px;
+            }
+            #mains input {
+                font-size: 60px;
+                width: 650px;
+            }
+            #help {
+            font-size: 40px;
+            }
+        }
+    </style>
+    <head>
+        <title>
+            Log In
+        </title>
+    </head>
+    <body>
+        <div id="mains">
+            <h1>Log In</h1>
+            <form action="">
+                <input type="email" placeholder="Mail" required cl>
+                <br><br>
+                <input type="password" placeholder="Password" required>
+                <br><br><br><br>
+                </form>
+                <div id="summit">
+                <a href="./mainpage.html"><button>Login</button></a>
+                </div>
+            <div id="help">
+                Don't have an account? <a href="./sign%20up.html">Sign Now</a>
+            </div>
+        </div>
+    </body>
+</html>

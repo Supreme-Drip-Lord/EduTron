@@ -1,0 +1,117 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+        html {
+            background: black;
+            scroll-behavior: smooth;
+        }
+        #navbar a {
+            color: #ff0000;
+            font-family: 'Oswald', sans-serif;
+            font-size: 60px;
+            text-decoration: none;
+            padding-left: 20px;
+        }
+        #a1 {
+            background: #161515;
+            margin-left: 300px;
+            margin-right: 300px;
+            padding-left: 20px;
+            border-radius: 10px;
+        }
+        #a1 h1 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-size: 80px;
+        }
+        #a1 input {
+            background: #5E5858;
+            font-size: 20px;
+            font-family: 'Urbanist', sans-serif;
+            border: none;
+            width: 600px;
+            padding: 5px;
+        }
+        #qna {
+            height: 60px;
+        }
+        #post input {
+            background: #ff0000;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 900;
+            transition: 0.5s;
+        }
+        #post input:hover {
+            background: white;
+            color: #ff0000;
+        }
+        #summit button {
+            background: #ff0000;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 900;
+            transition: 0.2s; 
+            border: none;
+            font-size: 20px;
+            font-family: 'Urbanist', sans-serif;
+            width: 600px;
+        }
+        #summit button:hover {
+            background: white;
+            color: #ff0000;
+        }
+        @media screen and (max-device-width: 1100px) {
+            #navbar a {
+                font-size: 100px;
+            }
+            #a1 {
+                margin-left: 100px;
+                margin-right: 100px;
+                padding-bottom: 80px;
+                padding-left: 40px ;
+            }
+            #a1 h1 {
+                font-size: 160px;
+            }
+            #a1 input {
+                font-size: 40px;
+            }
+            #qna {
+                height: 100px;
+            }
+        }
+    </style>
+    <head>
+        <title>
+            EduTron
+        </title>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="./mainpage.html?">
+                EduTron
+            </a>
+        </div>
+        <diV id="a1">
+            <h1>
+                Post A Question
+            </h1>
+            <form action="">
+                <input type="text" placeholder="Question" id="qna" required>
+                <br><br>
+                <Input type="number" placeholder="Class" max="12">
+                <br><br><br>\
+                </form>
+                <div id="summit">
+                    <a href="./question%20layout.html"><button>Post</button></a>
+                </div>
+                <br><br>
+        </diV>
+    </body>
+</html>

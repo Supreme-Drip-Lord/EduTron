@@ -1,0 +1,213 @@
+
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+        html {
+            background: black;
+            scroll-behavior: smooth;
+        }
+        #navbar {
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 10px;
+        }
+        #navbar b {
+            color: #ff0000;
+            font-family: 'Oswald', sans-serif;
+            font-size: 60px;
+            padding-left: 20px;
+        }
+        #navbar a {
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 25px;
+            text-decoration: none;
+            margin-left: 50px;
+            transition: 0.5s;
+        }
+        #navbar a:hover {
+            color: #ff0000;
+        }
+        #searchbar {
+            background: white;
+            font-size: 20px;
+            font-family: 'Urbanist', sans-serif;
+            border: none;
+            border-radius: 2px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: 200px;
+            width: 400px;
+        }
+        #searchbutton {
+            background: #ff0000;
+            font-size: 20px;
+            border: none;
+            border-radius: 2px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        } 
+        #a1 b {
+            color: #ff0000;
+            font-family: 'Oswald', sans-serif;
+            font-size: 100px;
+        }  
+        #a1 p {
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 30px;
+        }
+        img {
+            width: 500px;
+            height: 500px;
+        }
+        #s1 {
+            background: white;
+            font-size: 20px;
+            font-family: 'Urbanist', sans-serif;
+            border: none;
+            border-radius: 2px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 450px;
+        }
+        .s2 {
+            background: #ff0000;
+            font-size: 20px;
+            border: none;
+            border-radius: 2px;
+            padding-left: 7.5px;
+            padding-right: 7.5px;
+            padding-top: 7.5px;
+            padding-bottom: 7.5px;
+            transition: 0.5s;
+        }
+        .s2:hover {
+            transform: translate(0, -5px);
+        }
+        #l1 {
+            margin: 50px;
+        }
+        #l2 {
+            margin-left: 100px;
+        }
+        #big {
+            display: flex;
+        }
+        .fa-search {
+            color: white;
+            font-size: 20px;
+        }
+        @media screen and (max-device-width: 1100px) {
+            #navbar b {
+            color: #ff0000;
+            font-family: 'Oswald', sans-serif;
+            font-size: 100px;
+            padding-left: 20px;
+        }
+        #navbar a {
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 50px;
+            text-decoration: none;
+            margin-left: 50px;
+            transition: 0.5s;
+        }
+        #navbar a:hover {
+            color: #ff0000;
+        }
+        #searchbar {
+            background: white;
+            font-size: 30px;
+            font-family: 'Urbanist', sans-serif;
+            border: none;
+            border-radius: 2px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: 10px;
+            width: 600px;
+            height: 50px;
+        }
+        .s2 {
+            background: #ff0000;
+            font-size: 30px;
+            border: none;
+            border-radius: 2px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            height: 50px;
+        } 
+        #big {
+            flex-direction: column
+        }
+        img {
+            width: 600px;
+            height: 600px;
+        }
+        #a1 b {
+            font-size: 170px;
+        }
+        #a1 p {
+            font-size: 60px;
+        }
+        #s1 {
+            height: 50px;
+            font-size: 40px;
+        }
+        #l1 {
+            margin-left: 120px;
+        }
+        }
+    </style>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <title>
+            EduTron
+        </title>
+    </head>
+    <body>
+
+            <div id="navbar">
+                <form action="">
+                <b>
+                    ET
+                </b>
+                <A href="./posting.html">Ask</A>
+                <a href="./preview.html">Trending</a>
+                <a href="./quiz.html" id="start">Quiz</a>
+                &nbsp;
+                    <input type="text" placeholder="Search" id="searchbar">
+                    <button class="s2"><i class = "fa fa-search"></i></button>
+                </form>
+            </div>
+            <div id="a1">
+                <Div id="big">
+                    <div id="l1">
+                <b>
+                    Search
+                </b>
+                <br>
+                <p>
+                    Start by searching!
+                </p>
+                <form action="">
+                    <input type="text" placeholder="Search" id="s1">
+                    <button class="s2"><i class = "fa fa-search"></i></button>
+                </form>
+                </div>
+                <div id="l2">
+                <img src="file:///C:/Users/shabi/Downloads/undraw_knowledge_g5gf.svg">
+                </div>
+                </Div>
+            </div>
+
+
+    </body>
+</html>
